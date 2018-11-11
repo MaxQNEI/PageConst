@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+.start-slide-block:hover .start-slide-title,
+.start-slide-title {
+    height: 150px;
+}
+
+.unavailable {
+    font-size: 18px;
+}
+
+.unavailable code {
+    padding: 0 18px;
+    font-weight: initial;
+    letter-spacing: -2px;
+    color: #36ff00;
+}

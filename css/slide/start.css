@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+.start-slide-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 610px;
+    height: 100%;
+    margin: auto;
+}
+
+.start-slide-block {
+    padding: 40px;
+}
+
+.start-slide-title {
+    position: relative;
+    width: 382px;
+    height: 80px;
+    text-align: right;
+    overflow: hidden;
+
+    transition: height .3s ease, color .2s ease;
+}
+
+.start-slide-main-text {
+    display: block;
+    font-size: 80px;
+    font-weight: lighter;
+    font-variant: petite-caps;
+    text-align: center;
+    line-height: 1;
+}
+
+.start-slide-action-button-list {
+    padding-right: 10px;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.start-slide-action-button {
+    border: unset;
+    background: unset;
+    font: inherit;
+    cursor: pointer;
+
+    opacity: 0;
+    color: #f0f0f0;
+    transition: opacity .2s ease, color .2s ease;
+}
+.start-slide-action-button:hover {
+    color: #4499ff;
+    transition: opacity .5s ease .05s, color .2s ease;;
+}
+
+.start-slide-block:hover .start-slide-title {
+    height: 120px;
+}
+.start-slide-block:hover .start-slide-main-text {
+    color: #d2d2d2;
+}
+.start-slide-block:hover .start-slide-action-button {
+    opacity: 1;
+}
+
+.start-slide-contact {
+    padding-right: 10px;
+    text-align: right;
+}
