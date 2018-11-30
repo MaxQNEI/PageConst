@@ -1,0 +1,28 @@
+@charset 'utf-8';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+code {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    font-weight: 300;
+    font-size: 20px;
+    cursor: default;
+    opacity: 0;
+}
+
+body.onloaded {
+    opacity: 1;
+}
+
+button.link {
+    border: unset;
+    background: unset;
+    font: inherit;
+    cursor: pointer;
+    line-height: 1;
+}

@@ -1,0 +1,9 @@
+@charset 'utf-8';
+
+body.theme-black {
+    background-color: #000000;
+    color: #fefefe;
+}
+
+body.theme-black button.link { color: #fefefe; }
+body.theme-black button.link:hover { color: #3f66c7; }

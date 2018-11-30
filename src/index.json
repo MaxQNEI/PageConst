@@ -1,0 +1,74 @@
+{
+    "title": {
+        "text": "PageConst",
+        "separator": " / "
+    },
+
+    "@base": {
+        "favicon": [
+            {
+                "type": "image/svg+xml",
+                "href": "//audiowars.space/img/audiowars.svg"
+            }
+        ],
+
+        "styles": [ "css/global.css" ],
+
+        "scripts": [
+            "js/global.js",
+            "js/lib.js",
+            {
+                "main": "js/app.js",
+                "controllers": [
+                    "js/controllers/Home.js",
+                    "js/controllers/Login.js",
+                    "js/controllers/Construct.js"
+                ]
+            }
+        ]
+    },
+
+    "modules": [
+        {
+            "name": "index",
+            "includes": [ "@base" ],
+            "template": {
+                "block": "div",
+                "class": "centered-slide-wrap index-slide-wrap hidden",
+                "children": [
+                    {
+                        "block": "div",
+                        "class": "centered-slide-block index-slide-block",
+                        "children": [
+                            {
+                                "block": "div",
+                                "class": "centered-slide-title",
+                                "children": []
+                            },
+                            {
+                                "block": "div",
+                                "class": "centered-slide-contact",
+                                "children": [
+                                    {
+                                        "block": null,
+                                        "content": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "login",
+            "title": "Login",
+            "includes": [ "@base" ]
+        },
+        {
+            "name": "construct",
+            "title": "Construct",
+            "includes": [ "@base" ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+.taleft { text-align: left; }
+.tacenter { text-align: center; }
+.taright { text-align: right; }
+
+.hidden { display: none; }
+
+.fw1 { font-weight: 100; }
+.fw3 { font-weight: 300; }
+
+.fvpc { font-variant: petite-caps; }

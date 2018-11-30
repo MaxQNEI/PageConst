@@ -1,6 +1,6 @@
 'use strict';
 
-function Storage(name) {
+function StorageHelper(name) {
     if(!name || !name.trim()) {
         throw new Error(`Storage name is '${name}'!`);
     }

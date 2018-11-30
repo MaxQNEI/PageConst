@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+body.onloaded.animate {
+    transition: all 1s ease .5s;
+}
+
+button.link {
+    transition: opacity .2s ease, color .2s ease;
+}
+button.link:hover {
+    transition: opacity .5s ease .05s, color .2s ease;
+}
+
+.centered-slide-title {
+    transition: height .3s ease, color .2s ease;
+}

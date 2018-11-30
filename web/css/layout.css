@@ -9,18 +9,20 @@ code {
 }
 
 body {
-    background-color: #000000;
-    color: #fefefe;
+    font-weight: 300;
+    font-size: 20px;
     cursor: default;
-
     opacity: 0;
-    transition: opacity 1s ease 1s;
 }
 
 body.onloaded {
     opacity: 1;
 }
 
-a {
-    color: #3f66c7;
+button.link {
+    border: unset;
+    background: unset;
+    font: inherit;
+    cursor: pointer;
+    line-height: 1;
 }
